@@ -1,0 +1,42 @@
+* {
+  background-color: #999;
+}
+@media screen and (max-width: 500px) {
+  td {
+    padding: 15px;
+    font-size: 5px;
+    background-color: #fff;
+  }
+  #board {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  #top-troll{
+    font-size: 20px;
+  }
+}
+#board {
+  width: 50%;
+  font-size: 50px;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+i{
+  background:transparent;
+  color: #fff;
+}
+table {
+  table-layout:fixed;
+  position: absolute;
+}
+td {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.troll{
+  background-color: #555;
+}
